@@ -12,3 +12,8 @@ Tên: Nguyễn Đức Tuấn. MSV: 24021658
   + Di chuyển: Người chơi có thể di chuyển khối sang trái, phải, xuống dưới bằng các nút mũi tên. Xoay bằng cách nhấn phím mũi tên hướng lên.
   + Hard Drop: Nhấn nút space để thả khối xuống ngay lập tức.
   + Next Block: Hiển thị khối gạch tiếp theo để người chơi có thể lập kế hoạch.
+* Các nguồn tham khảo:
+  + Lập trình nâng cao (tài liệu bổ sung cho nội dung online).
+  + Tham khảo AI một số hàm như xoay khối, hiển thị khối tiếp theo,...
+  
+Hiện nay game đã có nhiều biến thể khác ngoài phiên bản cổ điển như Tetris 99, Tetris Effect, và các phiên bản đua điểm như Tetris Grand Master với độ khó cực cao.
