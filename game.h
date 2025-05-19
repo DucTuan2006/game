@@ -67,7 +67,6 @@ struct Game
 
     void GameOver(Graphics &graphics)
     {
-        // x = 95 -> 420; y = 420 -> 540
         SDL_Texture *gameOver = graphics.loadTexture("img/GameOver.png");
         SDL_Texture *restart = graphics.loadTexture("img/Restart.png");
 
@@ -277,7 +276,6 @@ struct Game
 
             if (full)
             {
-                // Di chuyển tất cả các hàng phía trên xuống
                 for (int r = row; r > 0; --r)
                 {
                     for (int c = 0; c < numCols; ++c)
@@ -285,14 +283,10 @@ struct Game
                         grid.board[r][c] = grid.board[r - 1][c];
                     }
                 }
-
-                // Xóa hàng trên cùng (set 0)
                 for (int c = 0; c < numCols; ++c)
                 {
                     grid.board[0][c] = 0;
                 }
-
-                // Sau khi xóa 1 hàng, cần kiểm tra lại chính hàng đó
                 rowsCleared++;
                 row++;
             }
