@@ -1,0 +1,40 @@
+# depslib dependency file v1.0
+1747328033 source:d:\gameproject\main.cpp
+	<iostream>
+	<SDL.h>
+	<SDL_image.h>
+	"graphics.h"
+	"defs.h"
+	"game.h"
+	"grid.h"
+	"block.h"
+
+1747328413 d:\gameproject\graphics.h
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_ttf.h>
+	<SDL_mixer.h>
+	"defs.h"
+
+1747206756 d:\gameproject\defs.h
+
+1747380709 d:\gameproject\game.h
+	"grid.h"
+	"block.h"
+	"graphics.h"
+	"defs.h"
+	<cstdlib>
+	<ctime>
+
+1747382018 d:\gameproject\grid.h
+	<map>
+	<vector>
+	"defs.h"
+	"graphics.h"
+
+1747382016 d:\gameproject\block.h
+	"defs.h"
+	<map>
+	<vector>
+	"graphics.h"
+

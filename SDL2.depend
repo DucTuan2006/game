@@ -1,0 +1,118 @@
+# depslib dependency file v1.0
+1747328033 source:d:\sdl2\main.cpp
+	<iostream>
+	<SDL.h>
+	<SDL_image.h>
+	"graphics.h"
+	"defs.h"
+	"game.h"
+	"grid.h"
+	"block.h"
+
+1747206756 d:\sdl2\defs.h
+
+1747328413 d:\sdl2\graphics.h
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_ttf.h>
+	<SDL_mixer.h>
+	"defs.h"
+
+1747041293 d:\sdl2\grid.h
+	<map>
+	<vector>
+	"defs.h"
+	"graphics.h"
+
+1747245288 d:\sdl2\block.h
+	"defs.h"
+	<map>
+	<vector>
+	"graphics.h"
+
+1747380709 d:\sdl2\game.h
+	"grid.h"
+	"block.h"
+	"graphics.h"
+	"defs.h"
+	<cstdlib>
+	<ctime>
+
+1747328033 source:d:\tetris\main.cpp
+	<iostream>
+	<SDL.h>
+	<SDL_image.h>
+	"graphics.h"
+	"defs.h"
+	"game.h"
+	"grid.h"
+	"block.h"
+
+1747328413 d:\tetris\graphics.h
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_ttf.h>
+	<SDL_mixer.h>
+	"defs.h"
+
+1747206756 d:\tetris\defs.h
+
+1747380709 d:\tetris\game.h
+	"grid.h"
+	"block.h"
+	"graphics.h"
+	"defs.h"
+	<cstdlib>
+	<ctime>
+
+1747382018 d:\tetris\grid.h
+	<map>
+	<vector>
+	"defs.h"
+	"graphics.h"
+
+1747382016 d:\tetris\block.h
+	"defs.h"
+	<map>
+	<vector>
+	"graphics.h"
+
+1747635223 source:d:\gameproject\main.cpp
+	<iostream>
+	<SDL.h>
+	<SDL_image.h>
+	"graphics.h"
+	"defs.h"
+	"game.h"
+	"grid.h"
+	"block.h"
+
+1747626900 d:\gameproject\graphics.h
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_ttf.h>
+	<SDL_mixer.h>
+	"defs.h"
+
+1747628217 d:\gameproject\defs.h
+
+1747639818 d:\gameproject\game.h
+	"grid.h"
+	"block.h"
+	"graphics.h"
+	"defs.h"
+	<cstdlib>
+	<ctime>
+
+1747628217 d:\gameproject\grid.h
+	<map>
+	<vector>
+	"defs.h"
+	"graphics.h"
+
+1747628980 d:\gameproject\block.h
+	"defs.h"
+	<map>
+	<vector>
+	"graphics.h"
+
